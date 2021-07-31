@@ -1,7 +1,7 @@
 **Introduction :**
 
 This project is to get detail title information when search for title name in search box. Number of character in search box should be more or equal to 1 to begin search process.
-As soon as, the number of character is 1, it starts retriving top 10 title information from database table Titles, whichever TitleName contains this character. Data is limited to top 10 so the system will not get slow by loading all the titles that matched the character. 
+As soon as, the number of character is 1, it starts retrieving top 10 title information from database table Titles, whichever TitleName contains this character. Data is limited to top 10 so the system will not get slow by loading all the titles that matched the character. 
 
 **Tools Used:**
 
@@ -21,11 +21,6 @@ There are 4 projects in this application to provide scalability and extendabilty
 1) Data Access Layer Library project  - TitleInformationDAL
 2) Model Library Project - TitleInformationModel
 3) Main/Web Project - WM_TitleInformationSystem
-4) Unit Test Project - It just a basic built in template
-
-
-All AngularJS codes are insie Scripts\app folder.
-Bootstrap and css classes are inside Content folder.
 
 **Installation Guide: **
 
@@ -33,14 +28,21 @@ Bootstrap and css classes are inside Content folder.
       Install SQL express
       Install Visual Studio Community or any 2019
       Make sure .NET 4.7.1 is installed
-      Run SQL query to create databas and tables
-      Run stored procedure "GetTitleInformationByName"
+      Run SQL query to create database and tables
+     
+Download the zip and sql files from below link.
+WM_TitleInformationSytem.zip
+Packages.zip
+GetTitleInformationByName.sql
 
-Download the code from below link.
+First, extract all zipped files. 
+Copy packages folder into the WM_TitleInformationSystem folder
+Run Manage Nuget Package Manger to install Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1, which is not inside this package folder due to its huge size.
 
-Open the solution file WM_TitleInformationSystem.sln in Visual studio Community 2019. 
+Now, open the solution file WM_TitleInformationSystem.sln in Visual studio Community 2019. 
 Once the solution is open, right click on solution and build.
 Then run web project WM_InformationSystem.
 It should open a application in browser with a welcome note and search box.
 
-
+All AngularJS codes are inside Scripts\app folder.
+Bootstrap and css classes are inside Content folder.
