@@ -91,7 +91,7 @@ BEGIN
 	GROUP BY t.TitleId 
 
     -- Insert statements for procedure here
-	SELECT DISTINCT Top 10 t.TitleId, t.TitleName, t.ReleaseYear,  ts.StoryLines [StoryDescription],s.Language, tt.Types,tg.Genres [GenreName], ta.Actors--p.RoleType, p.Name [ParticipantName]
+	SELECT DISTINCT Top 10 t.TitleId, t.TitleName, t.ReleaseYear,  ts.StoryLines [StoryDescription],s.Language, tt.Types,tg.Genres [GenreName], ta.Actors
 	,a.NumberOfAward, a.AwardYear, a.AwardCompany 
 	FROM dbo.Title t
 	LEFT JOIN StoryLine s ON s.TitleId = t.TitleId
