@@ -17,7 +17,7 @@ SQL Express 2019
 
 This application is responsive. Gets all title information in tabular format. 
 
-There are 4 projects in this application to provide scalability and extendabilty for future.
+There are 3 projects in this application to provide scalability and extendabilty for future.
 1) Data Access Layer Library project  - TitleInformationDAL
 2) Model Library Project - TitleInformationModel
 3) Main/Web Project - WM_TitleInformationSystem
@@ -42,7 +42,7 @@ There are 4 projects in this application to provide scalability and extendabilty
       README.md
 
 3. Extract all zipped files. 
-4. Run stored procedure GetTitleInformationByName
+4. Run stored procedure GetTitleInformationByName against Titles database.
 5. Open extracted folder WM_TitleInformationSytem.
 6. Open solution WM_TitleInformationSytem.sln. It should open the solution in Visual Studio if you already have installed in your machine.
 7. Run web project WM_InformationSystem.
