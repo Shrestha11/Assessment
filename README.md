@@ -31,11 +31,13 @@ There are 4 projects in this application to provide scalability and extendabilty
       Run SQL query to create database and tables
      
 Download the zip and sql files from below link.
+https://github.com/Shrestha11/Assessment.git
+
 WM_TitleInformationSytem.zip
 Packages.zip
 GetTitleInformationByName.sql
 
-First, extract all zipped files. 
+Once it is downloaed on your machine, extract all zipped files. 
 Copy packages folder into the WM_TitleInformationSystem folder
 Run Manage Nuget Package Manger to install Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1, which is not inside this package folder due to its huge size.
 
