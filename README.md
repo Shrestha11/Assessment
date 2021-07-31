@@ -25,26 +25,34 @@ There are 4 projects in this application to provide scalability and extendabilty
 **Installation Guide: **
 
    ***Pre-requisites:***
-      Install SQL express
-      Install Visual Studio Community or any 2019
-      Make sure .NET 4.7.1 is installed
+      Install SQL express,
+      Install Visual Studio Community or any 2019,
+      Make sure .NET 4.7.1 is installed,
       Run SQL query to create database and tables
      
-Download the zip and sql files from below link.
-https://github.com/Shrestha11/Assessment.git
+1. Download the code from below link.
+    https://github.com/Shrestha11/Assessment.git
 
-WM_TitleInformationSytem.zip
-Packages.zip
-GetTitleInformationByName.sql
+    It will download Assessment-main.zip file in your download folder.
 
-Once it is downloaed on your machine, extract all zipped files. 
-Copy packages folder into the WM_TitleInformationSystem folder
+2.  Extract Assessment-main.zip. This will have below files.
+      WM_TitleInformationSytem.zip
+      Packages.zip
+      GetTitleInformationByName.sql
+      README.md
+
+3. Extract all zipped files. 
+4. Run stored procedure GetTitleInformationByName
+5. Open extracted folder WM_TitleInformationSytem.
+6. Open solution WM_TitleInformationSytem.sln. It should open the solution in Visual Studio if you already have installed in your machine.
+7. Run web project WM_InformationSystem.
+8. It should open application in browser with a welcome note and search box.
+
+Just incase, if you need packages, copy packages folder into the WM_TitleInformationSystem folder
 Run Manage Nuget Package Manger to install Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1, which is not inside this package folder due to its huge size.
 
-Now, open the solution file WM_TitleInformationSystem.sln in Visual studio Community 2019. 
-Once the solution is open, right click on solution and build.
-Then run web project WM_InformationSystem.
-It should open a application in browser with a welcome note and search box.
-
+NOTE: 
 All AngularJS codes are inside Scripts\app folder.
 Bootstrap and css classes are inside Content folder.
+
+
